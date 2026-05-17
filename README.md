@@ -61,12 +61,9 @@ By calculating the mathematical variance between raw and filtered signals, the s
 ## Usage Instructions
 To deploy this system to your hardware node ecosystem, open the main code file in your development environment, match the pin definitions to your stackable core layout, and program the device.
 
-If you are using the Arduino CLI environment to verify and flash the device node, use the following compilation command:
 
-arduino-cli compile --fqbn esp32:esp32:esp32 main_twin_firmware/
 
-##Microcontroller System Code
-Below is the clean C++ source implementation code designed to deploy onto your physical core processor module
+```cpp
 #define BLYNK_TEMPLATE_ID   "TMPL54erV6uDs"
 #define BLYNK_TEMPLATE_NAME "MYOSA Digital Twin"
 #define BLYNK_AUTH_TOKEN    "UaUzSDlrjLE49smuEfs2L66vwucMerV6"
@@ -79,8 +76,8 @@ Below is the clean C++ source implementation code designed to deploy onto your p
 #include <Adafruit_SSD1306.h>
 #include <math.h>
 
-char ssid[] = "ENTER_YOUR_WIFI";        
-char pass[] = "ENTER_YOUR_WIFI_PASSWORD";    
+char ssid[] = "AndroidAP_7753";        
+char pass[] = "blahblah123321";    
 
 #define SCREEN_WIDTH 128
 #define SCREEN_HEIGHT 64
@@ -229,8 +226,7 @@ void loop() {
   display.display();
   delay(100); 
 }
-
-
+```
 
 ##Tech Stack
 ### 1. Hardware Core: MYOSA ESP32 Core Motherboard
@@ -242,8 +238,13 @@ void loop() {
 
 ##Requirements / Installation
 Ensure you have installed the necessary dependencies in your integrated setup environment before deploying the firmware compilation:
+```bash
 lib_deps =
     blynkkk/Blynk @ ^1.3.2
     adafruit/Adafruit SSD1306 @ ^2.5.7
     adafruit/Adafruit GFX Library @ ^1.11.5
+```
 
+If you are using the Arduino CLI environment to verify and flash the device node, use the following compilation command:
+```plaintext
+arduino-cli compile --fqbn esp32:esp32:esp32 main_twin_firmware/
