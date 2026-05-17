@@ -26,25 +26,28 @@ By coupling localized filtering routines directly on the ESP32 microcontroller c
 
 ### Images
 
+### Images
+
 <p align="center">
-<img src="/cover-dashboard.jpg" width="800"><br/>
+<img src="/assets/images/myosa-digital-twin/cover-dashboard.jpg" width="800"><br/>
 <i>Figure 1: Live Blynk Cloud Dashboard displaying real-time AI-Corrected tracking streams and data accuracy indices.</i>
 </p>
 
 <p align="center">
-<img src="/hardware-nominal.jpg" width="800"><br/>
+<img src="/assets/images/myosa-digital-twin/hardware-nominal.jpg" width="800"><br/>
 <i>Figure 2: Top-down overview of the active hardware bus pipeline in nominal tracking state.</i>
 </p>
 
 <p align="center">
-<img src="/oled-calibrated.jpg" width="800"><br/>
+<img src="/assets/images/myosa-digital-twin/oled-calibrated.jpg" width="800"><br/>
 <i>Figure 3: Close-up view of the SSD1306 OLED Module showing local baseline calibration indices and live system status.</i>
 </p>
 
 <p align="center">
-<img src="/setup.jpg" width="800"><br/>
-<i>Figure 3: Close-up view of the SSD1306 OLED Module showing local baseline calibration indices and live system status.</i>
+<img src="/assets/images/myosa-digital-twin/setup.jpg" width="800"><br/>
+<i>Figure 4: Complete physical testing environment and hardware calibration setup layout.</i>
 </p>
+
 
 ### Videos
 
