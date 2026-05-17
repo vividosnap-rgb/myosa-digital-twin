@@ -41,6 +41,11 @@ By coupling localized filtering routines directly on the ESP32 microcontroller c
 <i>Figure 3: Close-up view of the SSD1306 OLED Module showing local baseline calibration indices and live system status.</i>
 </p>
 
+<p align="center">
+<img src="/setup" width="800"><br/>
+<i>Figure 3: Close-up view of the SSD1306 OLED Module showing local baseline calibration indices and live system status.</i>
+</p>
+
 ### Videos
 
 <video controls width="100%">
