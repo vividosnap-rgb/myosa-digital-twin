@@ -79,8 +79,8 @@ Below is the clean C++ source implementation code designed to deploy onto your p
 #include <Adafruit_SSD1306.h>
 #include <math.h>
 
-char ssid[] = "AndroidAP_7753";        
-char pass[] = "blahblah123321";    
+char ssid[] = "ENTER_YOUR_WIFI";        
+char pass[] = "ENTER_YOUR_WIFI_PASSWORD";    
 
 #define SCREEN_WIDTH 128
 #define SCREEN_HEIGHT 64
